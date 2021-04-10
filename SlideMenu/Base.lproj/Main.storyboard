@@ -27,6 +27,29 @@
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Azf-Zf-QPF">
                                             <rect key="frame" x="0.0" y="0.0" width="175" height="818"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpC-eI-snL">
+                                                    <rect key="frame" x="10" y="10" width="155" height="40"/>
+                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="TeX-Lj-bzp"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <state key="normal" title="Home">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="15"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="QpC-eI-snL" firstAttribute="leading" secondItem="Azf-Zf-QPF" secondAttribute="leading" constant="10" id="If4-B9-R6p"/>
+                                                <constraint firstAttribute="trailing" secondItem="QpC-eI-snL" secondAttribute="trailing" constant="10" id="hcc-NL-RcL"/>
+                                                <constraint firstItem="QpC-eI-snL" firstAttribute="top" secondItem="Azf-Zf-QPF" secondAttribute="top" constant="10" id="yeF-Tf-X2i"/>
+                                            </constraints>
                                         </view>
                                         <blurEffect style="regular"/>
                                     </visualEffectView>
