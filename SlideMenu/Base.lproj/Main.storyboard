@@ -44,10 +44,29 @@
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGc-kz-jhA">
+                                                    <rect key="frame" x="8" y="58" width="159" height="40"/>
+                                                    <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="37L-bv-bBz"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                    <state key="normal" title="About">
+                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </state>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <integer key="value" value="15"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="OGc-kz-jhA" secondAttribute="trailing" constant="8" id="5uY-Zo-jsM"/>
                                                 <constraint firstItem="QpC-eI-snL" firstAttribute="leading" secondItem="Azf-Zf-QPF" secondAttribute="leading" constant="10" id="If4-B9-R6p"/>
+                                                <constraint firstItem="OGc-kz-jhA" firstAttribute="leading" secondItem="Azf-Zf-QPF" secondAttribute="leading" constant="8" id="Nwc-Xp-G5r"/>
                                                 <constraint firstAttribute="trailing" secondItem="QpC-eI-snL" secondAttribute="trailing" constant="10" id="hcc-NL-RcL"/>
+                                                <constraint firstItem="OGc-kz-jhA" firstAttribute="top" secondItem="QpC-eI-snL" secondAttribute="bottom" constant="8" id="kEH-dX-VM7"/>
                                                 <constraint firstItem="QpC-eI-snL" firstAttribute="top" secondItem="Azf-Zf-QPF" secondAttribute="top" constant="10" id="yeF-Tf-X2i"/>
                                             </constraints>
                                         </view>
