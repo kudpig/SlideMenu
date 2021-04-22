@@ -95,6 +95,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="atu-cW-JOX" secondAttribute="bottom" id="teJ-xU-zA4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blurView" destination="dry-L5-r4N" id="iRi-bS-vap"/>
+                        <outlet property="sideView" destination="HEc-Kb-NT0" id="l6r-cZ-tEf"/>
+                        <outlet property="viewConstraint" destination="d0w-IQ-FjM" id="V3K-Z8-y3A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
