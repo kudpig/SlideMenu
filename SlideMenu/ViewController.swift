@@ -18,7 +18,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        blurView.layer.cornerRadius = 15
+        sideView.layer.shadowColor = UIColor.black.cgColor
+        sideView.layer.shadowOpacity = 1
+        sideView.layer.shadowOffset = CGSize(width: 5, height: 0)
     }
 
 
