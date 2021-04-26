@@ -21,10 +21,15 @@ class ViewController: UIViewController {
         
         blurView.layer.cornerRadius = 15
         sideView.layer.shadowColor = UIColor.black.cgColor
-        sideView.layer.shadowOpacity = 1
+        sideView.layer.shadowOpacity = 0.8
         sideView.layer.shadowOffset = CGSize(width: 5, height: 0)
+        
+        viewConstraint.constant = -175
     }
 
 
+    @IBAction func panPerformd(_ sender: UIPanGestureRecognizer) {
+    }
+    
 }
 
