@@ -18,6 +18,7 @@
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample-bg" translatesAutoresizingMaskIntoConstraints="NO" id="atu-cW-JOX">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <gestureRecognizers/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HEc-Kb-NT0">
                                 <rect key="frame" x="0.0" y="44" width="175" height="818"/>
@@ -61,6 +62,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </button>
                                             </subviews>
+                                            <gestureRecognizers/>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="OGc-kz-jhA" secondAttribute="trailing" constant="8" id="5uY-Zo-jsM"/>
                                                 <constraint firstItem="QpC-eI-snL" firstAttribute="leading" secondItem="Azf-Zf-QPF" secondAttribute="leading" constant="10" id="If4-B9-R6p"/>
@@ -70,10 +72,12 @@
                                                 <constraint firstItem="QpC-eI-snL" firstAttribute="top" secondItem="Azf-Zf-QPF" secondAttribute="top" constant="10" id="yeF-Tf-X2i"/>
                                             </constraints>
                                         </view>
+                                        <gestureRecognizers/>
                                         <blurEffect style="regular"/>
                                     </visualEffectView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstItem="dry-L5-r4N" firstAttribute="centerY" secondItem="HEc-Kb-NT0" secondAttribute="centerY" id="F3q-ZV-wRf"/>
                                     <constraint firstItem="dry-L5-r4N" firstAttribute="height" secondItem="HEc-Kb-NT0" secondAttribute="height" id="FnD-2t-uAe"/>
@@ -102,11 +106,6 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="Par-pF-g3g">
-                    <connections>
-                        <action selector="panPerformd:" destination="BYZ-38-t0r" id="qke-ec-ywa"/>
-                    </connections>
-                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-30.434782608695656" y="93.75"/>
         </scene>
